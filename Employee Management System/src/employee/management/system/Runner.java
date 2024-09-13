@@ -1,0 +1,1 @@
+package employee.management.system;import javax.swing.*;import java.awt.*;public class Runner extends JFrame {    Runner(){        try{            new Login();        }catch (Exception e){            e.printStackTrace();        }    }    public static void main(String[] args) {        new Runner();    }}
